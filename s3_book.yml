@@ -1,0 +1,6 @@
+# Note: These examples do not set authentication details, see the AWS Guide for details.
+
+# Create a simple s3 bucket
+- s3_bucket:
+    name: diogoS3bucket
+    state: present
